@@ -1,8 +1,14 @@
 import React from 'react';
 
+import GlobalStyles from './styles/GlobalStyles';
+
 function App() {
   return (
-    <h1>Hello Twitter</h1>
+    <>
+      <h1>Hello Twitter</h1>
+
+      <GlobalStyles />
+    </>
   );
 }
 
