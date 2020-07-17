@@ -2,7 +2,9 @@ import React from 'react';
 
 import Button from '../Button';
 
-import { Container, Topside, Logo, MenuButton, HomeIcon, BellIcon, EmailIcon, FavoriteIcon, ProfileIcon } from './styles';
+import { Container, Topside, Logo, MenuButton, HomeIcon, BellIcon, EmailIcon, FavoriteIcon, ProfileIcon, Botside, Avatar, ProfileData, ExitIcon } from './styles';
+
+
 
 const MenuBar: React.FC = () => {
   return (
@@ -39,6 +41,16 @@ const MenuBar: React.FC = () => {
           <span>Tweet</span>
         </Button>
       </Topside>
+
+      <Botside>
+        <Avatar />
+
+        <ProfileData>
+          <strong> Daniel Simões</strong>
+          <span> @daniel_simoes</span>
+        </ProfileData>
+        <ExitIcon />
+      </Botside>
 
     </Container>
     );
