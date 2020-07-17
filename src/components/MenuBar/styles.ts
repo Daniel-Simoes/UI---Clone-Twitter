@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 
-import { Home, Notifications, Email, FavoriteBorder, Person, ExitToApp, Retweet } from '../../styles/Icons';
+import { Home, Notifications, Email, FavoriteBorder, Person, ExitToApp, Twitter } from '../../styles/Icons';
 
 export const Container = styled.div`
   display: none;
@@ -31,7 +31,7 @@ export const Topside = styled.div`
   }
 `;
 
-export const Logo = styled(Retweet)`
+export const Logo = styled(Twitter)`
   width: 41px;
   height: 41px;
 
@@ -160,8 +160,8 @@ export const ProfileIcon = styled(Person)`${iconCSS}`;
 
 export const ExitIcon = styled(ExitToApp)`
   display: inline-block;
-  width: 45px;
-  height: 45px;
+  width: 35px;
+  height: 35px;
   color: var(--white);
   margin-left: 30px;
   cursor: pointer;
