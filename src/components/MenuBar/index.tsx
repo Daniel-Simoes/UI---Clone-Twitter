@@ -1,6 +1,6 @@
 import React from 'react';
 
-// import Button from '../Button';
+import Button from '../Button';
 
 import { Container, Topside, Logo, MenuButton, HomeIcon, BellIcon, EmailIcon, FavoriteIcon, ProfileIcon } from './styles';
 
@@ -35,9 +35,9 @@ const MenuBar: React.FC = () => {
           <span>Profile</span>
         </MenuButton>
 
-        {/* <Button>
+        <Button>
           <span>Tweet</span>
-        </Button> */}
+        </Button>
       </Topside>
 
     </Container>
